@@ -1,0 +1,228 @@
+@import './them.scss';
+
+.query-block {
+  height: auto;
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 8px;
+
+  .mr-15 {
+    margin-right: 10px;
+  }
+
+  .right-block {
+    text-align: right;
+  }
+
+}
+
+.pageContent {
+  height: calc(100vh - 50px);
+  padding: $space-big;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex: auto;
+  overflow: auto;
+}
+
+/*
+* 页面 el-input 元素 公共宽度定义
+*/
+.input-60 {
+  width: 60px;
+}
+
+.input-80 {
+  width: 80px;
+}
+
+.input-100 {
+  width: 100px;
+}
+
+.input-120 {
+  width: 120px;
+}
+
+.input-140 {
+  width: 140px;
+}
+
+.input-160 {
+  width: 160px;
+}
+
+.input-180 {
+  width: 180px;
+}
+
+.input-200 {
+  width: 200px;
+}
+
+.input-220 {
+  width: 220px;
+}
+
+.input-300 {
+  width: 300px;
+}
+
+.marginL-8 {
+  margin-left: 8px;
+}
+
+.marginL-10 {
+  margin-left: 8px;
+}
+
+.marginL-16 {
+  margin-left: 16px;
+}
+
+.marginR-8 {
+  margin-right: 8px;
+}
+
+.marginR-10 {
+  margin-right: 8px;
+}
+
+.marginR-16 {
+  margin-right: 16px;
+}
+
+.left,
+.fl {
+  float: left;
+  text-align: left;
+}
+
+.right,
+.fr {
+  float: right;
+}
+
+.hide,
+.hide.ant-btn {
+  display: none !important;
+}
+
+.red,
+.error {
+  color: $error-color !important;
+}
+
+.info {
+  color: $info-color !important;
+}
+
+.gray {
+  color: $gray !important
+}
+
+.yellow {
+  color: $warning-color !important;
+}
+
+.green,
+.success {
+  color: $success-color !important;
+}
+
+.orange {
+  color: $orange !important;
+}
+
+.highlight,
+.blue {
+  color: $blue !important;
+}
+
+.fail {
+  color: $text-color-secondary !important;
+}
+
+.transparent {
+  color: transparent;
+}
+
+a {
+  color: $primary-color;
+
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+ul li,
+dl dt {
+  list-style: none
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+// 占满宽度
+.fullWidth {
+  width: 100% !important;
+}
+
+// 文本居中
+.center {
+  text-align: center !important;
+}
+
+// 手形
+.pointer {
+  cursor: pointer !important;
+}
+
+// 拖拽
+.move {
+  cursor: move !important;
+}
+
+
+.flexcolumn {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.flexrow {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.flexAuto {
+  display: flex;
+  flex: 1
+}
+
+// 
+.ellipsis {
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1 1 auto !important;
+}
+
+// 文本过长时省略
+.search-block {
+  padding: 15px 20px;
+}
+
+.table-tag {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
