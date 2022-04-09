@@ -37,7 +37,7 @@ vue-taozugong-admin 是基于[vue-element-admin](http://panjiachen.github.io/vue
 ## 项目目录规范
 ```
 
-- 淘租公所有页面的公共样式写在   @/styles/page.scss 中
+- 所有页面的公共样式写在   @/styles/page.scss 中
 - 所有的页面都在views 文件夹下，并且已模块分类  比如商品--goods 单个模块下的公共组件放在views/模块文件夹/components 下
 - 路由也以模块分别定义文件， 在router 文件下 modules 下根据模块名称定义 然后导入到 router/index.js 下
 - store 文件下 为 vuex 文件, 用来做 数据的状态管理，同样在modules 文件夹下添加当前模块的文件
