@@ -87,7 +87,7 @@ export default {
     changeLang: '语言切换成功'
   },
   login: {
-    title: '淘租公租赁管理系统',
+    title: '小公公租赁管理系统',
     logIn: '登录',
     plzUsername: '请输入用户名',
     plzPassword: '请输入密码',
@@ -780,7 +780,7 @@ export default {
     iptmodulename: '请输入模块名称'
   },
   common: {
-    taozugong: '淘租公',
+    taozugong: '小公公',
     new: '新增',
     add: '添加',
     edit: '编辑',
