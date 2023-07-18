@@ -780,7 +780,7 @@ export default {
     iptmodulename: '请输入模块名称'
   },
   common: {
-    taozugong: '小公公',
+    xiaogonggong: '小公公',
     new: '新增',
     add: '添加',
     edit: '编辑',
