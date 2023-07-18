@@ -1,5 +1,5 @@
 <p align="center">
-  vue taozugong admin 基于 vue element admin
+  vue xiaogonggong admin 基于 vue element admin
 </p>
 
 <p align="center">
