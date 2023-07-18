@@ -41,12 +41,12 @@ const devProxy = [
   'management',
   '/v1'
 ];
-// const devProxy = ['/taozugong'];
+// const devProxy = ['/xiaogonggong'];
 // 生成代理配置对象
 const proxyObj = {};
-// const URL = 'https://usa.service.taozugong.com'
-const URL = 'https://usa.api.taozugong.cn';
-// const URL = 'https://api.taozugong.cn';
+// const URL = 'https://usa.service.xiaogonggong.com'
+const URL = 'https://usa.api.xiaogonggong.cn';
+// const URL = 'https://api.xiaogonggong.cn';
 // const URL = 'http://10.5.0.32:9090'
 // const URL = 'http://10.5.0.231:9192'
 devProxy.forEach((value, index) => {
@@ -74,7 +74,7 @@ devProxy.forEach((value, index) => {
     secure: false,
     changeOrigin: true,
     pathRewrite: {
-      [`^${value}`]: value === '/taozugong' ? '/' : value
+      [`^${value}`]: value === '/xiaogonggong' ? '/' : value
     }
   };
 });
@@ -121,7 +121,7 @@ module.exports = {
   configureWebpack: {
     // We provide the app's title in Webpack's name field, so that
     // it can be accessed in index.html to inject the correct title.
-    name: 'vue-taozugong-admin', // TODO: change to Settings
+    name: 'vue-xiaogonggong-admin', // TODO: change to Settings
     // 关闭 webpack 的性能提示
     performance: {
       hints: false
