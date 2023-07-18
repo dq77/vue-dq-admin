@@ -2,7 +2,7 @@
   <div class="dashboard-editor-container">
     <div class=" clearfix">
       <!-- <pan-thumb :image="avatar" style="float: left">
-        <span class="pan-info-roles">您好! 欢迎登陆淘租公后台管理系统</span>
+        <span class="pan-info-roles">您好! 欢迎登陆小公公后台管理系统</span>
       </pan-thumb> -->
     </div>
     <div>
